@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GameBet</string>
+    <string name="error_occurred">Error occurred</string>
+    <string name="check_internet_connection">Check your internet connection!</string>
+    <string name="unknown_error">Unknown error!</string>
+    <string name="retry">Retry</string>
+    <string name="read_more">Read More</string>
+    <string name="empty_state_no_matches" >There Are No Matches</string>
+    <string name="title_list">Matches</string>
+    <string name="show_result">show result</string>
+    <string name="select_your_point">Select Your Point</string>
+    <string name="txt_your_prediction">Your bet</string>
+    <string name="txt_actual_prediction">Actual</string>
+    <string name="make_prediction_alert">Make at least one prediction</string>
+    <string name="invalid_point">Number cant be less than ziro</string>
+    <string name="reStart">Restart</string>
+    <string name="Game_Bet">Game_Bet</string>
+</resources>

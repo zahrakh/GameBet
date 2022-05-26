@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="@dimen/spacing_s"
+        android:background="@drawable/stroke_background_white"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="14dp"
+        app:iconGravity="textStart"
+        app:iconPadding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title"
+        app:rippleColor="@color/black"
+        app:srcCompat="@drawable/ic_arrow_down"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_m"
+        android:gravity="center"
+        android:text="@string/select_your_point"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/spacing_xl"
+        android:background="@color/gray"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/tv_team1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xxl6"
+        android:layout_marginTop="@dimen/spacing_xl"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/separator"
+        tools:text="team1" />
+
+
+    <TextView
+        android:id="@+id/tv_team1_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing_s"
+        android:gravity="center"
+        android:minWidth="@dimen/spacing_xxl"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_team1_add"
+        app:layout_constraintEnd_toStartOf="@+id/btn_team1_minus"
+        app:layout_constraintTop_toTopOf="@+id/btn_team1_add"
+        tools:ignore="HardcodedText" />
+
+
+    <ImageButton
+        android:id="@+id/btn_team1_add"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="@dimen/spacing_s"
+        android:background="@drawable/stroke_background_red"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="14dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_team1"
+        app:layout_constraintEnd_toStartOf="@+id/tv_team1_point"
+        app:layout_constraintTop_toTopOf="@+id/tv_team1"
+        app:rippleColor="@color/black"
+        app:srcCompat="@drawable/ic_add" />
+
+    <ImageButton
+        android:id="@+id/btn_team1_minus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/spacing_xs"
+        android:layout_marginEnd="@dimen/spacing_xxl6"
+        android:layout_marginBottom="@dimen/spacing_xs"
+        android:background="@drawable/stroke_background_red"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="14dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_team1_point"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_team1_point"
+        app:rippleColor="@color/gray"
+        app:srcCompat="@drawable/ic_minus"
+        app:tint="@color/primary" />
+
+
+    <TextView
+        android:id="@+id/tv_team2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xxl6"
+        android:layout_marginTop="@dimen/spacing_xl"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_team1"
+        tools:text="team2" />
+
+
+    <TextView
+        android:id="@+id/tv_team2_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing_s"
+        android:gravity="center"
+        android:minWidth="@dimen/spacing_xxl"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_team2_add"
+        app:layout_constraintEnd_toStartOf="@+id/btn_team2_minus"
+        app:layout_constraintTop_toTopOf="@+id/btn_team2_add"
+        tools:ignore="HardcodedText" />
+
+
+    <ImageButton
+        android:id="@+id/btn_team2_add"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="@dimen/spacing_s"
+        android:background="@drawable/stroke_background_red"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="14dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_team2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_team2_point"
+        app:layout_constraintTop_toTopOf="@+id/tv_team2"
+        app:rippleColor="@color/black"
+        app:srcCompat="@drawable/ic_add" />
+
+    <ImageButton
+        android:id="@+id/btn_team2_minus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/spacing_xs"
+        android:layout_marginEnd="@dimen/spacing_xxl6"
+        android:layout_marginBottom="@dimen/spacing_xs"
+        android:background="@drawable/stroke_background_red"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="14dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_team2_point"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_team2_point"
+        app:rippleColor="@color/gray"
+        app:srcCompat="@drawable/ic_minus"
+        app:tint="@color/primary" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_xxl3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_team2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

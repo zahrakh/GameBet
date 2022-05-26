@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xxl6">64dp</dimen>
+    <dimen name="spacing_xxl5">56dp</dimen>
+    <dimen name="spacing_xxl4">48dp</dimen>
+    <dimen name="spacing_xxl3">44dp</dimen>
+    <dimen name="spacing_xxl2">40dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_l">20dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_s">12dp</dimen>
+    <dimen name="spacing_xs">8dp</dimen>
+    <dimen name="spacing_xxs">4dp</dimen>
+</resources>
