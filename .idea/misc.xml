@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_back.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable-v24/stroke_background.xml" value="0.233" />
+        <entry key="app/src/main/res/drawable-v24/stroke_background_white.xml" value="0.233" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.2265" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.233" />
+        <entry key="app/src/main/res/drawable/ic_baseline_minimize_24.xml" value="0.233" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_match.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_minus.xml" value="0.2265" />
+        <entry key="app/src/main/res/drawable/my_icon.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/stroke_background.xml" value="0.233" />
+        <entry key="app/src/main/res/drawable/stroke_background_white.xml" value="0.233" />
+        <entry key="app/src/main/res/layout/aaa.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/bottomsheet_point.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_list_page.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_result.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/fragment_result_page.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/item_error.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/item_loading.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/item_match_error.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/item_match_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_match_loading.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/item_match_result.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/item_result.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/lyt_toolbar_home.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/stroke_red_bg.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/layout/toolbar_layout.xml" value="0.20008550662676358" />
+        <entry key="app/src/main/res/menu/list_menu.xml" value="0.24270833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
